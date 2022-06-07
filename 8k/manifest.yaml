@@ -1,0 +1,9 @@
+---
+applications:
+- name: ng-test-8
+  instances: 1
+  memory: 64M
+  buildpack: 
+    https://github.com/cloudfoundry/nginx-buildpack.git
+  routes:
+  - route: ng-test8k.cfapps-03.slot-34.tanzu-gss-labs.vmware.com
